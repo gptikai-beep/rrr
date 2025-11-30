@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Phone, MessageCircle, Facebook, Instagram, Wrench, Euro, HelpCircle, MapPin, X, Menu, Info } from 'lucide-react';
+import { MessageCircle, Facebook, Instagram, Wrench, Euro, HelpCircle, MapPin, X, Menu, Info } from 'lucide-react';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
     { id: 'pravne-informacie', label: 'Právne informácie', icon: <Info className="w-5 h-5" /> },
   ];
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
       const headerOffset = 80;

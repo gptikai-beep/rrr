@@ -10,8 +10,8 @@ export default function Pricing() {
           </h2>
           <div className="h-1 w-24 bg-blue-600 mx-auto mb-8 rounded-full"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Zákaznícke pohodlie a férovosť sú pre nás prvoradé. Diagnostika je <span className="text-green-600 font-semibold">úplne zdarma</span> ak si vyberiete opravu u nás.  
-            Vždy vopred viete, koľko za opravu zaplatíte – žiadne prekvapenia, žiadne skryté poplatky!
+            Zákaznícke pohodlie a férovosť sú pre nás prvoradé. Diagnostika je <span className="text-green-600 font-semibold">úplne zdarma</span> ak si vyberiete opravu u nás.
+            Vždy vopred viete, koľko za opravu zaplatíte - žiadne prekvapenia, žiadne skryté poplatky!
           </p>
         </div>
 
@@ -93,8 +93,8 @@ export default function Pricing() {
                 Každá oprava je individuálna
               </h4>
               <p className="text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                Cena opravy závisí od typu zariadenia, rozsahu poškodenia a potrebných dielov.
-                Po diagnostike dostanete jasný návrh riešenia a cenu vopred – a keď poviete áno, až vtedy začneme pracovať.
+                Cena opravy závisí od typu zariadenia, rozsahu poškodenia a potrebných dielov.
+                Po diagnostike dostanete jasný návrh riešenia a cenu vopred - a keď poviete áno, až vtedy začneme pracovať.
                 <br />
                 Naším cieľom je nulové riziko skrytých poplatkov. Platíte len za to, čo reálne potrebujete.
               </p>

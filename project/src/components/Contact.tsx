@@ -1,8 +1,6 @@
 import { Phone, MapPin, Clock, Package } from "lucide-react";
-import { useState } from "react";
 
 export default function Contact() {
-  const [mapLoaded, setMapLoaded] = useState(true);
 
   return (
     <section id="kontakt" className="py-16 sm:py-20 bg-white">
@@ -85,27 +83,25 @@ export default function Contact() {
           </div>
 
           <div className="rounded-xl overflow-hidden shadow-lg border-2 border-gray-200 bg-gray-100 flex flex-col justify-center items-center max-w-full">
-            {mapLoaded && (
-              <>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.8302081289104!2d18.028797863632906!3d48.95756801028921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47149f079178ccc1%3A0x898ff09f73dd8664!2zRG9sbsOhIFPDusSNYSA4NzcsIDkxMyAzMiBEb2xuw6EgU8O6xI1h!5e1!3m2!1ssk!2ssk!4v1762602569560!5m2!1ssk!2ssk"
-                  width="100%"
-                  height="400"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-                <a
-                  href="https://maps.app.goo.gl/X9DVURezjL89ueG7A"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-                >
-                  Otvoriť v Google Maps
-                </a>
-              </>
-            )}
+            <>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.8302081289104!2d18.028797863632906!3d48.95756801028921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47149f079178ccc1%3A0x898ff09f73dd8664!2zRG9sbsOhIFPDusSNYSA4NzcsIDkxMyAzMiBEb2xuw6EgU8O6xI1h!5e1!3m2!1ssk!2ssk!4v1762602569560!5m2!1ssk!2ssk"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <a
+                href="https://maps.app.goo.gl/X9DVURezjL89ueG7A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              >
+                Otvoriť v Google Maps
+              </a>
+            </>
           </div>
         </div>
       </div>
